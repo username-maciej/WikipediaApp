@@ -3,9 +3,6 @@
 const input = document.querySelector('.main-search');
 const searchBtn = document.querySelector('.main-btn');
 
-
-
-
 //EVENTS
 searchBtn.addEventListener('click', searchWiki)
 
@@ -48,8 +45,6 @@ function displayData(data) {
    document.querySelector('.results').innerHTML = output;
 }
 
-
-
 //show/hide gif
 
 function showGif(value) {
@@ -59,8 +54,4 @@ function showGif(value) {
       document.querySelector('.wait-icon').classList.remove('show')
    }
 }
-
-const elo = 10;
-
-console.log(10 * elo);
 
